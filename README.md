@@ -1,8 +1,8 @@
 # Keylogger
 
-Keylogger is simple Windows program that demonstrate how to do DLL injection and keylogging of another process. This program also do periodec screen capture upon starting of certain another application/process.
+Keylogger is simple Windows program that demonstrate how to do DLL injection and keylogging of another process. This program also do periodic screen capture upon starting of certain another application/process.
 
-Keylogger that take two parameters(or one if the two params are supposed to be the same). The first parameter is name of process(for e.g 'notepad.exe') where the keylogger process should attach and intercept all the keystrokes directed to that process/window. The second parameter is the name of process(exe filename) to which the keylogger will monitor and start the screencapture as soon as the process is started.
+Keylogger takes two parameters(or one if the two params are supposed to be the same). The first parameter is name of process(for e.g 'notepad.exe') where the keylogger process should attach and intercept all the keystrokes directed to that process/window. The second parameter is the name of process(exe filename) to which the keylogger will monitor and start the screencapture as soon as the process is started.
 
 Keylogger will terminate when the two process already activated and then terminated.
 
