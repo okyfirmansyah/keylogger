@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1491310561 source:c:\src\keylogger\main.cpp
+	<tchar.h>
+	<windows.h>
+	<winbase.h>
+	<string>
+	<thread>
+	<atomic>
+	"log.h"
+	"util.h"
+
+1491277777 source:c:\src\keylogger\log.cpp
+	<windows.h>
+	<winbase.h>
+	<memory>
+	<fstream>
+	<time.h>
+	"log.h"
+
+1491280099 c:\src\keylogger\log.h
+	<string>
+	<fstream>
+
+1491310511 source:c:\src\keylogger\util.cpp
+	<tchar.h>
+	<windows.h>
+	<winbase.h>
+	<string>
+	<functional>
+	<tlhelp32.h>
+	<memory>
+	<atomic>
+	"log.h"
+	<time.h>
+	<ole2.h>
+	<olectl.h>
+
+1491306228 c:\src\keylogger\util.h
+	<functional>
+	<tlhelp32.h>
+	<thread>
+	<atomic>
+	"log.h"
+	"util.h"
+
