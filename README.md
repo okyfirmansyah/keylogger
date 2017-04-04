@@ -6,6 +6,14 @@ Keylogger that take two parameters(or one if the two params are supposed to be t
 
 Keylogger will terminate when the two process already activated and then terminated.
 
+
+To run keylogger, simply use:
+```cmd
+C:\binary\keylogger notepad.exe chrome.exe
+```
+
+By default, the screen will be captured every 3 seconds and saved to `C:\src\YYYYMMDD_HHMMSS.bmp` and the logged key will be saved to `C:\src\keydump.txt`
+
 # Project Internal
 Keylogger consists of two parts, the first one is the main project itself(build to .exe), and the second one is the DLL part(build to .Dll). The .Dll will be loaded on the runtime, when the target process is activated and then injected to target process's memory space. The key hook will be then activated, using Win32 API: SetWindowsHookEx().
 
